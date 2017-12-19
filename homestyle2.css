@@ -1,0 +1,225 @@
+.box2 {
+    background-color: var (--box1);
+    position: fixed; /* для этого элемента отщет координат идет от окна браузер */
+    position: relative;
+    position: absolute; /* такой же как и fixed но прикрепляется к заданой точке и при скролинге остается в ней же */
+    position: static;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%); /* размещает блок с помощью позиционирования по центру */
+}
+
+:root {
+    --имя значения которое нам удобно: значение
+}
+
+.block {
+    background-color: #5DB7DE;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.block1 {
+    width: 70px;
+    height: 70px;
+    background-color: #88292F;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+
+}
+.block2 {
+    width: 70px;
+    height: 70px;
+    background-color: darkorchid;
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    left: 75px;
+
+
+}
+.block3 {
+    width: 70px;
+    height: 70px;
+    background-color: khaki;
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    left: 100px;
+
+}
+
+
+}
+.block {
+    background-color: #5DB7DE;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+.block4 {
+    width: 70px;
+    height: 70px;
+    background-color: #88292F;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+
+}
+.block5 {
+    width: 70px;
+    height: 70px;
+    background-color: darkorchid;
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    left: 75px;
+
+
+}
+.block6 {
+    width: 70px;
+    height: 70px;
+    background-color: khaki;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 100px;
+
+}
+.block {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.block {
+    background-color: #5DB7DE;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.block7 {
+    width: 70px;
+    height: 70px;
+    background-color: #88292F;
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    left: 50px;
+
+}
+.block8 {
+    width: 70px;
+    height: 70px;
+    background-color: darkorchid;
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    left: 75px;
+
+
+}
+.block9 {
+    width: 70px;
+    height: 70px;
+    background-color: khaki;
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    left: 100px;
+
+}
+.block {
+    background-color: #5DB7DE;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.blockgreen {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: chartreuse;
+}
+.block11 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: azure;
+
+}
+.block12 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-color: azure;
+    bottom: 50px;
+    right: 50px;
+
+}
+
+
+
+.circleblock {
+    position: absolute;
+    background-color: khaki;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    top: 50px;
+    left: 50px;
+}
+.eye1 {
+    position: absolute;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    top: 75px;
+    left: 75px;
+    border-radius: 50%;
+}
+.eye2 {
+    position: absolute;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    top: 75px;
+    right: 75px;
+    border-radius: 50%;
+}
+.nose {
+    position: absolute;
+    background-color: darkred;
+    height: 45px;
+    width: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mouth {
+    position: absolute;
+    background-color: chartreuse;
+    height: 40px;
+    width: 180px;
+    border-radius: 40px;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.saveblock {
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    position: fixed
+}
